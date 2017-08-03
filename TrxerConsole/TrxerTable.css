@@ -1,0 +1,218 @@
+table a,
+table a:link,
+table a:visited {
+    border: none;
+}
+
+img {
+    border: 0;
+    margin-top: .5em;
+}
+
+table {
+    width: 90%;
+    margin: 1em auto;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+}
+
+caption {
+    color: #000000;
+    background: #FFF2E5;
+    background: #dbedff !important ;
+    font-size: 14px;
+    letter-spacing:0;
+    margin: 0 0 0 0;
+    font-family:Arial;
+    color:#000000;
+    height:15px !important;
+    padding: 5px;
+    
+    text-align: center;
+    font-weight: 600;
+    border-top: 1px solid #dcdcdc;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+}
+
+tr.odd .column1 {
+  
+    background: #FFF2E5;
+    background: #FFF0D1;
+    background: #dbedff !important;
+}
+tr.oddcolor {
+     background: #dbedff !important;
+}
+
+tr.odd.column1Failed	{
+	background:#fed9d9;
+    background: #FFF2E5;
+    background: #FFF0D1 !important;
+	width:30px;
+	}
+
+tr.odd td, tr.sep td {
+    background: #FFFFFF;
+
+}
+
+tr.sep .column1 {
+    background: #7CCD7C;
+        background: #FFF2E5;
+    background: #FFF0D1 !important;
+}
+
+tr.odd .ex,
+tr.sep .ex,
+td.ex {
+    text-align: left;
+    width: 100px;
+}
+
+td.exShow {
+    text-align: left;
+    width: 100px;
+    color: #000;
+}
+
+td.statusCount {
+    width: auto;
+}
+
+th.statusCount {
+    width: auto;
+}
+
+td.critical {
+    text-align: left;
+    width: 100px;
+}
+
+td.Message {
+    text-align: left;
+    width: auto;
+    word-wrap: break-word;
+}
+td.Count {
+    text-align: left;
+    width:50px;
+
+}
+td.Messages {
+    text-align: left;
+    width: auto;
+    word-wrap: break-word;
+    max-width: 600px;
+}
+
+.Atached {
+    width: 30px
+}
+
+td.Function {
+    text-align: left;
+}
+
+tr.sep .error,
+tr.odd .error,
+td.error {
+    background: #F08080;
+}
+
+tr.odd .warn,
+tr.sep .warn,
+td.warn {
+    color: #E4C100;
+    background: #FBE87E;
+    width: 90px;
+}
+
+tr.odd .info,
+td.info,
+tr.sep .info {
+    color: #c7c7c7;
+    background: #e0e0e0;
+    width: 90px;
+}
+
+tr.odd .failed,
+tr.sep.failed,
+td.failed {
+    color: #FFFFFF;
+    background:#ff5050;
+    width: 90px;
+}
+
+tr.odd .passed,
+tr.sep.passed,
+td.passed {
+    color: #000000;
+    background: #76FF9F;
+    width: 90px;
+}
+
+td {
+    color: #425b71;
+    padding: .3em 1em;
+    text-align: center;
+    border-left: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    word-wrap: break-word;
+}
+
+td {
+    color: #425b71;
+    padding: .3em 1em;
+    text-align: center;
+    border-left: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    word-wrap: break-word;
+}
+th {
+    font-weight: normal;
+    color: #678197;
+    text-align: left;
+    border-left: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    padding: .3em 1em;
+}
+
+thead th.TestsTable {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+thead th {
+    background: #FFF2E5;
+    background: #FFF0D1 !important;
+    text-align: center;
+    font: bold 14px, Tahoma,Arial,"Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-weight:700;
+    color: #000000;
+}
+thead th.different {
+    background: #FFF2E5;
+    background: #dbedff !important;
+    text-align: center;
+    font: bold 14px, Tahoma,Arial,"Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-weight:700;
+    color: #000000;
+}
+tfoot th {
+    text-align: center;
+    background: #f4f9fe;
+}
+
+    tfoot th strong {
+        font: bold 1.2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+        margin: .5em .5em .5em 0;
+        color: #678197;
+    }
+
+    tfoot th em {
+        color: #678197;
+        font-weight: bold;
+        font-size: 1.1em;
+        font-style: normal;
+    }
