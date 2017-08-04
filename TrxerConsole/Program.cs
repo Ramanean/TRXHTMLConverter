@@ -24,9 +24,11 @@ namespace TRXHTMLConverter
         /// <param name="args">First cell shoud be TRX path</param>
         static void Main(string[] args)
         {
+            Console.WriteLine(args.First());
             if (args.Any() == false)
             {
-                Console.WriteLine("No trx file,  Trxer.exe <filename>");
+                
+                Console.WriteLine("No trx file,  TrxConsole.exe <filename>");
                 return;
             }
             Console.WriteLine("Trx File\n{0}", args[0]);

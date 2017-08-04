@@ -63,8 +63,8 @@ function CreateHorizontalBars(id, totalPass, totalFailed, totalWarn) {
     var PassPercentage = ((Passed / Total) * 50);
     var FailPercentage = ((Failed / Total) * 50);
     //alert(id);
-    document.getElementById(id + "Passed").style.width = PassPercentage+"px";
-    document.getElementById(id + "Failed").style.width = FailPercentage+"px";
+    document.getElementById(id + "Passed").style.width = PassPercentage + "px";
+    document.getElementById(id + "Failed").style.width = FailPercentage + "px";
     /*
     var myArray = new Array(3);
     myArray[0] = totalPass;
@@ -172,8 +172,7 @@ function CreateText() {
 
     for (var i = 0; i < myData.length; i++) {
         ctx.fillStyle = myStrokeColor[i]
-        switch(i)
-        {
+        switch (i) {
             case 0:
                 var legend = "Passed:";
                 break;
@@ -187,7 +186,7 @@ function CreateText() {
                 break;
         }
         ctx.font = "12px arial";
-        ctx.fillText(legend+myParsedData[i], textPosX, textPosY);
+        ctx.fillText(legend + myParsedData[i], textPosX, textPosY);
         textPosY += 35;
     }
 }
@@ -221,8 +220,8 @@ function CalculateTotalPrecents() {
     myParsedData.push("" + Math.round(warnPrec).toFixed(0) + "%");
 
     //Only Data
-   // myParsedData.push(allPassed);
-   // myParsedData.push(allFailed);
+    // myParsedData.push(allPassed);
+    // myParsedData.push(allFailed);
     //myParsedData.push(allWarns);
 
 

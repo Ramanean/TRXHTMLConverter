@@ -18,8 +18,8 @@ namespace TRXHTMLConverter
 
         internal static Stream StreamFromResource(string name)
         {
-           
-            return Assembly.GetExecutingAssembly().GetManifestResourceStream("TRXHTML." + name);
+
+            return Assembly.GetExecutingAssembly().GetManifestResourceStream("TRXHTMLConverter." + name);
        
         }
     }
