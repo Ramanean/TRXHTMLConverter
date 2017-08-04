@@ -14,7 +14,7 @@ function ShowHide(id1, id2, textOnHide, textOnShow) {
         document.getElementById(id1).className = 'visibleRow';
     }
 }
-//Tests
+
 function AddEventListener() {
     var button = document.getElementById('btn-download');
     button.addEventListener('click', function () {
