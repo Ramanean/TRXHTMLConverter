@@ -259,7 +259,7 @@ function CalculateTestsStatuses(testContaineId, canvasId) {
     var passedPrec = (totalPassed / totalTests) * 100;
     var failedPrec = (totalFailed / totalTests) * 100;
     var warnPrec = (totalInconclusive / totalTests) * 100;
-
+    //Shan
 
     CreateHorizontalBars(canvasId, passedPrec, failedPrec, warnPrec);
 }
