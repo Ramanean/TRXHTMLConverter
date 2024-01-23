@@ -20,7 +20,7 @@ namespace TRXHTMLConverter
         {
 
             return Assembly.GetExecutingAssembly().GetManifestResourceStream("TRXHTMLConverter." + name);
-       
+
         }
     }
 }

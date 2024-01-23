@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Xml;
 using System.Xml.Xsl;
@@ -27,7 +26,7 @@ namespace TRXHTMLConverter
             Console.WriteLine(args.First());
             if (args.Any() == false)
             {
-                
+
                 Console.WriteLine("No trx file,  TrxConsole.exe <filename>");
                 return;
             }
